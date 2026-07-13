@@ -16,3 +16,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
