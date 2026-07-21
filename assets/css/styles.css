@@ -1,17 +1,23 @@
 /* styles.css */
 
+/*
+pineapples are in (5)
+my head. i know i'm(7)
+no sweet prince of love (5)
+- snippets of lyrics from "Pork Soda" by Glass Animals */
+
 html {
 	width: 100%;
 	height: 100%;
 }
 
 body {
-	margin: 1rem;
+	margin: 2rem;
 	background-color: black;
-	color: whitesmoke;
-	font-size: 5rem;
+	color: #22204c;
+	font-size: 4.5rem;
 	overflow: hidden; /* takes away scroll bar */
-	background-image: url("../img/flames.gif");
+	background-image: url("../img/pineapples.gif");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -21,13 +27,13 @@ body {
 	display: grid;
 	/* grid-template-columns: 1fr 1fr 1fr; */
 	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-	gap: 2rem;
-	margin: 10% 4rem 0 4rem;
+	gap: 1.5rem;
+	margin: 5% 4rem 0 4rem;
 }
 
 .last {
 	padding-bottom: 2rem;
-	border-bottom: 2px solid rgb(220,200,180);
+	border-bottom: 2px dotted rgb(232, 232, 141);
 }
 
 div {
